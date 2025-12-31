@@ -1,0 +1,13 @@
+.aider*
+
+# Hugo build output
+grds.io/public/
+
+# Hugo resources directory for generated assets
+grds.io/resources/_gen/
+
+# Hugo build lock file
+grds.io/.hugo_build.lock
+
+# Hugo stats file
+grds.io/hugo_stats.json

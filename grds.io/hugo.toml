@@ -1,0 +1,26 @@
+baseURL = "https://grds.io"
+languageCode = 'en-us'
+title = 'grds.io'
+theme = 'risotto'
+
+[params.theme]
+palette = "tokyo-night-dark"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "docs"
+    name = "docs"
+    url = "/docs/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    url = "/about/"
+    weight = 30
