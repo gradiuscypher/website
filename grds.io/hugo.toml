@@ -1,7 +1,9 @@
-baseURL = "https://grds.io"
+baseURL = "/"
 languageCode = 'en-us'
 title = 'grds.io'
 theme = 'risotto'
+relativeURLs = true
+canonifyURLs = false
 
 [params]
   customCSS = ["css/custom.css"]
