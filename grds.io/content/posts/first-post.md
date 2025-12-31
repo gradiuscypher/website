@@ -4,4 +4,16 @@ draft = false
 title = 'First Post'
 +++
 
-This is my post.
+# Header 1
+This is subtext
+
+## Header 2
+This is additional subtext
+
+### Header 3
+Here's a list:
+
+- List 1
+- List 2
+- List 3
+

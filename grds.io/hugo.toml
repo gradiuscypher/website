@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'grds.io'
 theme = 'risotto'
 
+[params]
+  customCSS = ["css/custom.css"]
+
 [params.theme]
 palette = "tokyo-night-dark"
 
@@ -14,13 +17,7 @@ palette = "tokyo-night-dark"
     weight = 10
 
   [[menu.main]]
-    identifier = "docs"
-    name = "docs"
-    url = "/docs/"
-    weight = 20
-
-  [[menu.main]]
     identifier = "about"
     name = "about"
     url = "/about/"
-    weight = 30
+    weight = 20
