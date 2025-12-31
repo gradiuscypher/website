@@ -11,10 +11,6 @@ canonifyURLs = false
 [params.theme]
 palette = "tokyo-night-dark"
 
-[markup]
-  [markup.highlight]
-    noClasses = true
-
 [menu]
   [[menu.main]]
     identifier = "posts"

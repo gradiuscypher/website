@@ -6,16 +6,13 @@
 }
 
 body, html {
-  font-family: 'Berkeley Mono', monospace !important;
+    font-family: 'Berkeley Mono', monospace !important;
 }
 
+/* 2. Style the container WITHOUT overriding the children's colors */
 code, pre, .chroma {
-  font-family: 'Berkeley Mono', monospace !important;
+    font-family: 'Berkeley Mono', monospace !important;
+    background-color: #282a36 !important; /* Dracula background */
+    color: #f8f8f2; /* Dracula default foreground (off-white) */
 }
 
-/* Ensure background and layout are stable */
-.chroma {
-  background-color: #282a36 !important; /* Matches Dracula background */
-  padding: 1rem;
-  border-radius: 4px;
-}
